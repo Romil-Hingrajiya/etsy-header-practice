@@ -1,0 +1,21 @@
+$bg-color: #D7E6F5;
+
+$border: 2px solid black;
+$border-radius: 50px;
+$border-radius-circle: 50%;
+
+$grid-template-columns: 100px 100px 100px;
+$grid-template-columns-large: 150px 150px 150px;
+
+@for $a from 1 through 5{
+    list-#{$a}{
+        width: 100px * $a;
+    }
+}
+
+// each item in a group or according map in short each loop is useful for multidimentional array or info
+@each $i in (normal,bold,italic){
+    .#{$i}{
+        font-weight: $i;
+    }
+}

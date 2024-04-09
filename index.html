@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+    crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style-scss/scss-style.css">
+    <title>Etsy Header</title>
+</head>
+<body>
+
+    <header>
+        <article class="container-fluid container-xl d-flex flex-column flex-sm-row justify-content-between justify-content-lg-evenly">
+
+            <div class="flex-shrink-1">
+                <svg xmlns="http://www.w3.org/2000/svg" class="logo-svg" width="150" height="50" viewBox="0 0 48 24" fill="#F1641E" aria-hidden="true" focusable="false"><path d="M6.547,3.125v6.008c0,0,2.117,0,3.25-0.086c0.891-0.156,1.055-0.242,1.219-1.133l0.328-1.305h0.969l-0.164,2.852 l0.086,2.922h-0.977l-0.242-1.141c-0.242-0.812-0.57-0.977-1.219-1.055c-0.812-0.086-3.25-0.086-3.25-0.086v5.039 c0,0.969,0.492,1.383,1.625,1.383h3.414c1.055,0,2.109-0.086,2.766-1.625l0.883-1.953h0.82c-0.086,0.406-0.492,3.984-0.57,4.789 c0,0-3.086-0.078-4.383-0.078H5.25l-3.492,0.078v-0.883l1.133-0.25c0.82-0.164,1.062-0.406,1.062-1.055 c0,0,0.086-2.195,0.086-5.852c0-3.648-0.086-5.844-0.086-5.844c0-0.727-0.242-0.891-1.062-1.055L1.758,2.555V1.664l3.414,0.07h6.5 c1.297,0,3.484-0.234,3.484-0.234s-0.078,1.375-0.164,4.625h-0.891l-0.328-1.141c-0.32-1.461-0.805-2.188-1.703-2.188H6.961 C6.547,2.797,6.547,2.875,6.547,3.125z M19.703,3.766h0.977V7.18l3.336-0.164l-0.164,1.547l-3.25-0.25v6.016 c0,1.703,0.57,2.359,1.547,2.359c0.883,0,1.539-0.492,1.781-0.898l0.484,0.57c-0.484,1.133-1.859,1.703-3.164,1.703 c-1.617,0-2.93-0.969-2.93-2.836V8.398h-1.938V7.586C18.008,7.422,19.219,6.445,19.703,3.766z M26.695,14.242l0.648,1.547 c0.242,0.648,0.812,1.305,2.109,1.305c1.383,0,1.953-0.734,1.953-1.625c0-2.766-5.445-1.953-5.445-5.688c0-2.109,1.703-3.094,3.898-3.094c0.977,0,2.438,0.164,3.172,0.492c-0.164,0.812-0.25,1.867-0.25,2.68l-0.805,0.078l-0.57-1.625 c-0.164-0.398-0.82-0.727-1.625-0.727c-0.977,0-1.953,0.406-1.953,1.461c0,2.516,5.609,1.953,5.609,5.688c0,2.117-1.867,3.25-4.148,3.25c-1.703,0-3.414-0.656-3.414-0.656c0.164-0.969,0.086-2.023,0-3.086H26.695z M33.031,22.039 c0.242-0.891,0.406-2.023,0.57-3.086l0.891-0.078l0.328,1.703c0.078,0.406,0.32,0.734,0.969,0.734c1.055,0,2.438-0.648,3.742-2.922 c-0.578-1.383-2.281-5.844-3.828-9.258c-0.406-0.898-0.484-0.977-1.047-1.141l-0.414-0.156v-0.82l2.445,0.086l3-0.164V7.75 l-0.734,0.164c-0.57,0.078-0.805,0.398-0.805,0.727c0,0.086,0,0.164,0.078,0.328c0.156,0.492,1.461,4.141,2.438,6.578c0.805-1.703,2.352-5.523,2.594-6.172c0.086-0.328,0.164-0.406,0.164-0.648c0-0.414-0.242-0.656-0.805-0.812L42.039,7.75V6.938 l2.281,0.078l2.109-0.078V7.75l-0.406,0.32c-0.812,0.328-0.898,0.406-1.219,1.062l-3.57,8.359 c-2.117,4.797-4.312,5.203-5.852,5.203C34.406,22.695,33.672,22.445,33.031,22.039z"></path>
+                </svg>
+            </div>
+
+            <div class="input-group mb-3 text-center d-none d-lg-inline-flex flex-grow-1">               
+                <input type="text" class="form-control" placeholder="Search for anything">
+                <span class="input-group-text"><img src="./Images/search.png" alt=""></span>
+            </div>
+
+            <nav>
+                <article class="nav navbar-expand nav-item flex-lg-shrink-1 justify-content-end">
+                    <a href="#" class="nav-link link-dark fs-6 fw-lighter text-nowrap">Sign in</a>
+                    <a href="#" class="nav-link link-dark fw-lighter">
+                        <img src="./images/in.png.webp" width="20em" height="20em" alt="" class="product-location-img">
+                    </a>
+                    <a href="#" class="nav-link link-dark fw-lighter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-heart" viewBox="0 0 16 16">
+                            <path d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z"/>
+                        </svg>
+                    </a>
+                    <a href="#" class="nav-link link-dark fw-lighter">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-basket2" viewBox="0 0 16 16">
+                            <path d="M4 10a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 0 1 2 0v2a1 1 0 0 1-2 0v-2zm3 0a1 1 0 1 1 2 0v2a1 1 0 0 1-2 0v-2z"/>
+                            <path d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-.623l-1.844 6.456a.75.75 0 0 1-.722.544H3.69a.75.75 0 0 1-.722-.544L1.123 8H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM2.163 8l1.714 6h8.246l1.714-6H2.163z"/>
+                        </svg>
+                    </a>
+                </article>
+            </nav>
+        </article>
+    </header>
+
+
+    <section>
+      <div class="container-fluid">
+        <div class="d-flex mb-1">
+
+          <nav class="navbar navbar-expand-lg mx-auto">
+              
+              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#expand-offcanvas" aria-controls="expand-offcanvas" aria-expanded="false">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse offcanvas offcanvas-start" id="expand-offcanvas">
+                
+                <div class="offcanvas-header">
+                    <h5 class="offcanvas-title me-5 pe-3">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="logo-svg" width="150" height="50" viewBox="0 0 48 24" fill="#F1641E" aria-hidden="true" focusable="false"><path d="M6.547,3.125v6.008c0,0,2.117,0,3.25-0.086c0.891-0.156,1.055-0.242,1.219-1.133l0.328-1.305h0.969l-0.164,2.852 l0.086,2.922h-0.977l-0.242-1.141c-0.242-0.812-0.57-0.977-1.219-1.055c-0.812-0.086-3.25-0.086-3.25-0.086v5.039 c0,0.969,0.492,1.383,1.625,1.383h3.414c1.055,0,2.109-0.086,2.766-1.625l0.883-1.953h0.82c-0.086,0.406-0.492,3.984-0.57,4.789 c0,0-3.086-0.078-4.383-0.078H5.25l-3.492,0.078v-0.883l1.133-0.25c0.82-0.164,1.062-0.406,1.062-1.055 c0,0,0.086-2.195,0.086-5.852c0-3.648-0.086-5.844-0.086-5.844c0-0.727-0.242-0.891-1.062-1.055L1.758,2.555V1.664l3.414,0.07h6.5 c1.297,0,3.484-0.234,3.484-0.234s-0.078,1.375-0.164,4.625h-0.891l-0.328-1.141c-0.32-1.461-0.805-2.188-1.703-2.188H6.961 C6.547,2.797,6.547,2.875,6.547,3.125z M19.703,3.766h0.977V7.18l3.336-0.164l-0.164,1.547l-3.25-0.25v6.016 c0,1.703,0.57,2.359,1.547,2.359c0.883,0,1.539-0.492,1.781-0.898l0.484,0.57c-0.484,1.133-1.859,1.703-3.164,1.703 c-1.617,0-2.93-0.969-2.93-2.836V8.398h-1.938V7.586C18.008,7.422,19.219,6.445,19.703,3.766z M26.695,14.242l0.648,1.547 c0.242,0.648,0.812,1.305,2.109,1.305c1.383,0,1.953-0.734,1.953-1.625c0-2.766-5.445-1.953-5.445-5.688c0-2.109,1.703-3.094,3.898-3.094c0.977,0,2.438,0.164,3.172,0.492c-0.164,0.812-0.25,1.867-0.25,2.68l-0.805,0.078l-0.57-1.625 c-0.164-0.398-0.82-0.727-1.625-0.727c-0.977,0-1.953,0.406-1.953,1.461c0,2.516,5.609,1.953,5.609,5.688c0,2.117-1.867,3.25-4.148,3.25c-1.703,0-3.414-0.656-3.414-0.656c0.164-0.969,0.086-2.023,0-3.086H26.695z M33.031,22.039 c0.242-0.891,0.406-2.023,0.57-3.086l0.891-0.078l0.328,1.703c0.078,0.406,0.32,0.734,0.969,0.734c1.055,0,2.438-0.648,3.742-2.922 c-0.578-1.383-2.281-5.844-3.828-9.258c-0.406-0.898-0.484-0.977-1.047-1.141l-0.414-0.156v-0.82l2.445,0.086l3-0.164V7.75 l-0.734,0.164c-0.57,0.078-0.805,0.398-0.805,0.727c0,0.086,0,0.164,0.078,0.328c0.156,0.492,1.461,4.141,2.438,6.578c0.805-1.703,2.352-5.523,2.594-6.172c0.086-0.328,0.164-0.406,0.164-0.648c0-0.414-0.242-0.656-0.805-0.812L42.039,7.75V6.938 l2.281,0.078l2.109-0.078V7.75l-0.406,0.32c-0.812,0.328-0.898,0.406-1.219,1.062l-3.57,8.359 c-2.117,4.797-4.312,5.203-5.852,5.203C34.406,22.695,33.672,22.445,33.031,22.039z"></path>
+                      </svg>
+                    </h5>
+                    <button type="button" class="btn-close ms-5" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
+
+                    <ul class="navbar-nav offcanvas-body">
+                        <li class="nav-item">
+                          <a href="#" class="nav-link fw-bolder text-center d-lg-none">Browse Categories</a>
+                        </li>       
+                        <li class="nav-item pe-xl-1">
+                          <a class="nav-link" href="#">Sellers' Sales Hub</a>
+                        </li>
+                        <li class="nav-item pe-xl-1">
+                          <a class="nav-link" href="#">Jewellery & Accessories</a>
+                        </li>
+                        <li class="nav-item pe-xl-1">
+                          <a class="nav-link" href="#" role="button">Clothing & Shoes</a>
+                        </li>
+                        <li class="nav-item pe-xl-1">
+                          <a class="nav-link">Home & Living</a>
+                        </li>
+                        <li class="nav-item pe-xl-1">
+                        <a class="nav-link">Wedding & Party</a>
+                        </li>
+                        <li class="nav-item pe-xl-1">
+                        <a class="nav-link">Toys & Entertainment</a>
+                        </li>
+                        <li class="nav-item pe-xl-1">
+                        <a class="nav-link">Art & Collectibles</a>
+                        </li>
+                        <li class="nav-item pe-xl-1">
+                        <a class="nav-link">Craft Supplies</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="black" class="bi bi-gift-fill" viewBox="0 0 16 16">
+                            <path d="M3 2.5a2.5 2.5 0 0 1 5 0 2.5 2.5 0 0 1 5 0v.006c0 .07 0 .27-.038.494H15a1 1 0 0 1 1 1v1a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h2.038A2.968 2.968 0 0 1 3 2.506V2.5zm1.068.5H7v-.5a1.5 1.5 0 1 0-3 0c0 .085.002.274.045.43a.522.522 0 0 0 .023.07zM9 3h2.932a.56.56 0 0 0 .023-.07c.043-.156.045-.345.045-.43a1.5 1.5 0 0 0-3 0V3zm6 4v7.5a1.5 1.5 0 0 1-1.5 1.5H9V7h6zM2.5 16A1.5 1.5 0 0 1 1 14.5V7h6v9H2.5z"/>
+                          </svg>
+                        Gifts
+                        </a>
+                        </li>
+                      </ul>
+            </div>
+          </nav>
+
+          <div class="input-group text-center d-inline-flex d-lg-none flex-grow-1 mx-2">               
+            <input type="text" class="form-control-2" placeholder="Search for anything">
+            <span class="input-group-text-2 bg-light"><img src="./Images/search.png"alt=""></span>
+          </div>
+
+        </div>
+        </div>
+    </section>
+    
+    <section>
+        <article class="container-fluid">
+            <div class="product-details">
+                <h2 class="fw-light text-center py-3 px-2">Discover one-of-a-kind items from independent creators</h2>
+                
+                <div class="product-list justify-content-center">
+                  <div class="flex-column ps-4">
+                    <img src="./images/product-img1.jpg" width="100rem" height="100rem" class="product-img" alt="">
+                    <p class="product-title title-1">Wedding</p>
+                  </div>
+                  <div class="flex-column ps-4">
+                    <img src="./images/product-img2.avif" width="100rem" height="100rem" class="product-img" alt="">
+                    <p class="product-title title-2">Digital art</p>
+                  </div>
+                  <div class="flex-column ps-4">
+                    <img src="./images/product-img3.avif" width="100rem" height="100rem" class="product-img" alt="">
+                    <p class="product-title title-3">Rings</p>
+                  </div>
+                  <div class="flex-column ps-4">
+                    <img src="./images/product-img4.webp" width="100rem" height="100rem" class="product-img" alt="">
+                    <p class="product-title title-4">Necklaces</p>
+                  </div>
+                  <div class="flex-column ps-4">
+                    <img src="./images/product-img5.webp" width="100rem" height="100rem" class="product-img" alt="">
+                    <p class="product-title title-5">Sarees</p>
+                  </div>
+                  <div class="flex-column ps-4">
+                    <img src="./images/product-img7.avif" width="100rem" height="100rem" class="product-img" alt="">
+                    <p class="product-title title-6">Dresses</p>
+                  </div>
+                </div>
+
+            </div>
+        </article>
+    </section>
+
+    <section>
+      <article class="container-fluid">
+        <h2 class="card-detail-title">Deals of the day</h2>
+
+        <div class="card-container d-flex justify-content-center">
+          
+          <div class="card shadow" style="width: 13rem;">
+            <img src="./images/product-deal-img-1.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="text-muted">Up to 40% off on</div>
+              <h5 class="card-title">Women's Ethnic Clothing</h5>
+            </div>
+          </div>
+
+          <div class="card shadow" style="width: 13rem;">
+            <img src="./images/product-deal-img-2.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="text-muted">Up to 40% off on</div>
+              <h5 class="card-title">Women's Western Clothing</h5>
+            </div>
+          </div>
+
+          <div class="card shadow" style="width: 13rem;">
+            <img src="./images/product-deal-img-3.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="text-muted">Up to 40% off on</div>
+              <h5 class="card-title">Men's Clothing</h5>
+            </div>
+          </div>
+
+          <div class="card shadow" style="width: 13rem;">
+            <img src="./images/product-deal-img-4.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="text-muted">Up to 40% off on</div>
+              <h5 class="card-title">Fashion Jewellery</h5>
+            </div>
+          </div>
+
+          <div class="card shadow" style="width: 13rem;">
+            <img src="./images/product-deal-img-5.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="text-muted">Up to 40% off on</div>
+              <h5 class="card-title">Women's Shoes</h5>
+            </div>
+          </div>
+
+          <div class="card shadow" style="width: 13rem;">
+            <img src="./images/product-deal-img-6.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <div class="text-muted">Up to 40% off on</div>
+              <h5 class="card-title">Wedding Clothing</h5>
+            </div>
+          </div>
+
+        </div>
+      </article>  
+    </section>
+
+    
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+      integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+      crossorigin="anonymous"
+    ></script>
+</body>
+</html>

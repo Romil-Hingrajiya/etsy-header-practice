@@ -1,0 +1,98 @@
+@import "variables";
+
+@mixin position-left($left){
+    left: $left;
+}
+%form-control{
+    border: $border;
+    border-radius: $border-radius !important;
+    margin-top: .2rem;
+    box-shadow: none !important;
+}
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+header{
+    padding-top: .5rem;
+
+    .input-group{
+        .form-control{
+            padding: .5rem 2rem !important;
+            border-top-right-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+            border-right-style: none;
+            
+            @extend %form-control;
+        }
+        .input-group-text{
+            padding: .5rem 1rem !important;
+            border-top-left-radius: 0px !important;
+            border-bottom-left-radius: 0px !important;
+            border-left-style: none;
+            border-radius: $border-radius;
+
+            @extend %form-control;
+        }
+    }
+
+    nav{
+        .product-location-img{
+            border-radius: $border-radius-circle;
+        }
+    }
+}
+
+//offcanvas
+section{
+    
+    .offcanvas{
+        width: 21rem !important;
+
+        .offcanvas-body{
+            font-weight: 500;
+            .nav-link{
+                font-weight: 500;
+            }
+        }
+    }
+
+    .form-control-2{
+            padding: .5rem 2rem !important;
+            border-top-right-radius: 0px !important;
+            border-bottom-right-radius: 0px !important;
+            border-right-style: none;
+            
+            @extend %form-control;;
+    }
+    .input-group-text-2{
+            padding: .5rem 1rem !important;
+            border-top-left-radius: 0px !important;
+            border-bottom-left-radius: 0px !important;
+            border-left-style: none;
+            border-radius: $border-radius;
+
+            @extend %form-control;
+    }
+}
+
+//card-product-details
+section{
+    .card-detail-title{
+        margin-top: 8rem;
+        margin-left: 8rem;
+    }
+    .card-container{
+        margin-top: 1rem;
+        padding-bottom: 5rem;
+
+        .card{
+            margin: 0rem .5rem;
+        }
+    }
+}
+
+@import "main-product-section&media-query";
